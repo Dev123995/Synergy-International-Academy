@@ -1,0 +1,167 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: xxx-large;
+  color: white;
+}
+
+body {
+  background-image: url('images/Screenshot\ 2024-09-20\ at\ 9.41.01\ PM.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  display: block;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.id {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.synergy-image {
+  width: 300px;
+  height: 140px;
+}
+
+.image-container {
+  width: 300px;
+  height: 140px;
+  background-color: white;
+  /* Optional: black border around the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.synergy-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  /* Set the background color of the entire page */
+}
+
+.image-container {
+  width: 100%;
+  /* Full width of the page */
+  padding: 10px 20px;
+  /* Vertical padding and some horizontal padding */
+  background-color: white;
+  /* Background color of the container */
+  border-bottom: 2px solid #ccc;
+  /* Optional: border at the bottom */
+  display: flex;
+  align-items: center;
+  /* Center content vertically */
+}
+
+.synergy-image {
+  max-width: 100%;
+  /* Scale down the image to fit within the container */
+  height: auto;
+  /* Maintain aspect ratio */
+  max-height: 100px;
+  /* Optional: Set a maximum height for the image */
+  margin-right: 20px;
+  /* Space between the image and any following content */
+  /* Remove any other properties that might affect positioning */
+}
+
+ul {
+  list-style: none;
+  /* Remove default bullets */
+  font-family: sans-serif;
+}
+
+li {
+  display: inline-block;
+  margin: 0 1px;
+  /* Adjust the margin between items as needed */
+  font-size: 24px;
+  /* Increase the font size */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a::after {
+  a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s ease-in-out;
+  }
+
+  a:hover::after {
+    width: 100%;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  position: relative;
+}
+
+li::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  /* Adjust the position of the underline */
+  left: 0;
+  width: 0;
+  height: 2px;
+  /* Adjust the height of the underline */
+  background-color: #007bff;
+  /* Change the color of the underline */
+  transition: width 0.3s ease-in-out;
+  /* Adjust the transition duration and easing */
+}
+
+li:hover::after {
+  width: 100%;
+}
+
+a:hover::after {
+  a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s ease-in-out;
+  }
+
+  a:hover::after {
+    width: 100%;
+  }
+}
+
+a.hovered::after {
+  width: 100%;
+  /* Ensure the underline animation is triggered */
+}
+
+#ah {
+  color: white;
+}
